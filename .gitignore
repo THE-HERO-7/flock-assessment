@@ -1,0 +1,11 @@
+# data and generated caches are not committed
+data/
+cache/
+*.pkl
+*.7z
+RAW_*.csv
+CLEAN_*.csv
+house1_1min_clean.csv
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
