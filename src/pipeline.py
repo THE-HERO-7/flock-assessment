@@ -2,9 +2,7 @@
 
 Rules (all parameters are arguments, so they are documented in one place):
  1. Load Part2 + Part1 (pass paths in PRIORITY order, best first) and
-    concatenate. The README says the two files are two iterations of the same
-    database that overlap in time; Part2 marks unavailable sensors as NaN while
-    Part1 writes 0, so Part2 wins wherever both have the same Unix timestamp.
+    concatenate. 
  2. Time axis = Unix epoch (UTC). The 'Time' string is local time and
     ambiguous at DST changes, so it is only used for inspection.
  3. Sort by Unix (stable sort). Drop rows with unparseable Unix.
